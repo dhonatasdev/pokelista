@@ -1,0 +1,38 @@
+.PokemonView {
+    display: flex;
+    flex-direction: column;
+  }
+  .PokemonView h1 {
+    font-weight: 300;
+    font-size: 24px;
+    color: greenyellow;
+    text-align: center;
+  }
+  
+  .PokemonView img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .PokemonView h3{
+      text-align: center;
+  }
+  
+  .PokemonView__abilities {
+    list-style: none;
+    padding: 0;
+    color: yellow;
+  }
+  
+  .PokemonView__abilities li {
+    text-decoration: none;
+    color: yellow;
+    border: 3px solid yellow;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+    margin-bottom: 10px;
+  }
+  

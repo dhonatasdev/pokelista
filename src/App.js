@@ -8,7 +8,7 @@ import {
   Link,
   Redirect
 } from 'react-router-dom';
-//import './styles.css';
+import './syle.css';
 
 export default function App() {
   return (

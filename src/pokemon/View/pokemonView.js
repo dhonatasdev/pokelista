@@ -4,7 +4,7 @@ import React, {
     useContext
 } from 'react';
 import { useParams } from 'react-router-dom';
-//import './View.css';
+import './pokemonView.css';
 
 const PokemonView = () => {
     const [pokemon, setPokemon] = useState(null);
@@ -29,7 +29,7 @@ const PokemonView = () => {
                 src={pokemon.sprites.front_default}
                 alt={pokemon.name}
             />
-            Abilities
+            <h3 className='PokemonView'>Abilities</h3>
             <ul className="PokemonView__abilities">
                 {pokemon.abilities.map((item) => (
                     <li>{item.ability.name}</li>
